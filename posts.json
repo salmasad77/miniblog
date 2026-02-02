@@ -1,0 +1,104 @@
+[{
+  "_id": {
+    "$oid": "697340e3cced34d231a70388"
+  },
+  "title": "food",
+  "content": "eat healty",
+  "image": "/uploads/posts/1769160931015-image.png",
+  "category": "Health",
+  "author": {
+    "$oid": "69723d8f5da348324fea7367"
+  },
+  "likes": [],
+  "comments": [],
+  "createdAt": {
+    "$date": "2026-01-23T09:35:31.094Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-23T09:35:31.094Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6973433ecced34d231a703e5"
+  },
+  "title": "lifestyle",
+  "content": "travel",
+  "image": "/uploads/posts/1769161534530-image.jpg",
+  "category": "Lifestyle",
+  "author": {
+    "$oid": "69723d8f5da348324fea7367"
+  },
+  "likes": [
+    {
+      "$oid": "69723d8f5da348324fea7367"
+    }
+  ],
+  "comments": [
+    {
+      "user": {
+        "$oid": "69723d8f5da348324fea7367"
+      },
+      "text": "ghjkl",
+      "_id": {
+        "$oid": "69734f3ccced34d231a70494"
+      },
+      "createdAt": {
+        "$date": "2026-01-23T10:36:44.157Z"
+      },
+      "updatedAt": {
+        "$date": "2026-01-23T10:36:44.157Z"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2026-01-23T09:45:34.562Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-23T10:36:44.157Z"
+  },
+  "__v": 2
+},
+{
+  "_id": {
+    "$oid": "69735a0f40e72a889bce55a0"
+  },
+  "title": "photography",
+  "content": "travel the world",
+  "image": "/uploads/posts/1769167374961-image.jpg",
+  "category": "Travel",
+  "author": {
+    "$oid": "69723d8f5da348324fea7367"
+  },
+  "likes": [],
+  "comments": [],
+  "createdAt": {
+    "$date": "2026-01-23T11:22:55.050Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-23T11:22:55.050Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69735b1140e72a889bce55de"
+  },
+  "title": "computer science",
+  "content": "my new setup",
+  "image": "/uploads/posts/1769167633578-image.jpg",
+  "category": "Technology",
+  "author": {
+    "$oid": "69723d8f5da348324fea7367"
+  },
+  "likes": [],
+  "comments": [],
+  "createdAt": {
+    "$date": "2026-01-23T11:27:13.602Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-23T11:27:13.602Z"
+  },
+  "__v": 0
+}]
